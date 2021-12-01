@@ -1,0 +1,227 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #1A1915;
+    display: flex;
+}
+.header-logo img{
+    width: 90px;
+    height: 90px;
+    margin-left: 100%;
+}
+.header-nav{
+    width: 100%;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: 25px;
+}
+.header-nav ul{
+    list-style-type: none;
+    margin: 0;
+    /* drsi sahmanneri mijev her */
+    padding: 0;
+    /* padding nersi sahmanneri mej heravorutyun */
+    overflow: hidden;
+}
+.header-nav li{
+    float: left;
+}
+.header-nav li a {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+.header-nav li a:hover{
+   color: #ff7b00;
+}
+.header-icons{
+    width: 90%;
+    height: 100px;
+    margin-top: 10px;
+}
+.header-icons img{
+    width: 25px;
+    height: 25px;
+    margin-top: 30px;
+    margin-right: 70px;
+}
+
+/* search bar */
+
+.search{
+    
+    margin-top:35px;
+    margin-right: 10px;
+    margin-left: 320px;
+}
+.search input{
+    padding: 10px;
+    padding-right: 200px;
+    border-radius: 15px;
+    border: none;
+}
+.btn_button{
+    width: 70px;
+    height: 50px;
+    background-image: url("img/search.png");
+}
+.header-icons{
+    width: 90px;
+    height: 100px;
+
+}
+.header-icons img{
+    width: 25px;
+    height: 25px;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+}
+
+/* main */
+
+.intro {
+    height: 557px;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+}
+
+.intro:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 557px;
+
+    background-color: rgba(0, 0, 0, 0.3);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.intro__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+
+    position: absolute;
+    top: 100px;
+    left: 0;
+    z-index: 3;
+}
+
+.intro__title {
+    margin: 0;
+
+    font-size: 60px;
+    color: #fff;
+    text-align: left;
+}
+.intro_p{
+    margin: 0;
+    font-size: 30px;
+    color: #fff;
+    text-align: left;
+    width: 100%;
+    margin-left: 100px;
+}
+
+.container {
+    width: 100%;
+    max-width: 350px;
+    margin-left: 100px;
+    margin-top: -200px;
+}
+
+.video {
+    position: relative;
+    z-index: 1;
+    padding-bottom: 56.25%;
+}
+.video_button{
+    margin: 0 auto;
+    margin-left: 100px;
+    border: 0 ;
+    line-height: 1;
+    font-size: 10px;
+    padding: 16px 30px;
+    border-radius: 30px;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    border: solid #fff;
+}
+    .video_button:hover{
+        border: solid rgb(207, 80, 80);
+    }
+
+.video__media {
+    width: 100%;
+    height: auto;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+
+/* footer */
+
+.footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: #1A1915;
+}
+.icons{
+    width: 50px;
+    height: 50px;
+    margin-top: 35px;
+}
+.nkar1{
+    width: 40px;
+    height: 40px;
+}
+.mejtex{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+.mejtex1{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.div1,.div2,.div3,.div4,.div5{
+    display: inline-block;
+    width: 200px;
+    height: 180px;
+    border:1px solid;
+    margin-top: 50px;
+}
+.div6,.div7,.div8,.div9,.div10{
+    display: inline-block;
+    width: 200px;
+    height: 180px;
+    border:1px solid;
+}
+h2{
+    text-align: center;
+}
